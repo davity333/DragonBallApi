@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgba(255, 235, 235, 0.334);
+}
+
+#image:hover{
+    filter: drop-shadow(1px 1px 5px rgba(47, 18, 18, 0.616));
+  transform: scale(1.1);
+  
+}
